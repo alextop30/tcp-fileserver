@@ -1,0 +1,33 @@
+Example Run
+
+//start server
+./tcp_server 9003 ../TCP_exercise/
+
+//start client
+telnet localhost 9003
+
+//client command
+GET /
+
+//server response
+Files/Folders in Directory
+
+Makefile
+program_details
+tcp_ex.cxx
+tcp_ex.o
+tcp_server
+
+//client command with program_details to display information
+GET /program_details
+
+//server response
+Test hello
+
+//client INFO command
+INFO
+
+//server response
+Current Time and Date
+Wed Jun  1 12:01:16 2016
+
